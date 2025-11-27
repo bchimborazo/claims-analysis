@@ -3,6 +3,7 @@
 - Project Description: This project analyzes healthcare claims data to identify billing patterns, common diagnoses, procedures, and payer relationships.
 - Data Source:
     - Source: Stony Brook University
+    - Period: May 2024
     - Files: 
         - HEADER: contains claim information (billing providers, service dates etc.)
         - LINE: contains service line/procedure details
