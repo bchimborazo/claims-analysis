@@ -2,8 +2,7 @@
 - Name: Blanca Chimborazo-Reyes
 - Project Description: This project analyzes healthcare claims data to identify billing patterns, common diagnoses, procedures, and payer relationships.
 - Data Source:
-    - Source: Stony Brook University Hospital
-    - Period: May 2024
+    - Source: Stony Brook University
     - Files: 
         - HEADER: contains claim information (billing providers, service dates etc.)
         - LINE: contains service line/procedure details
@@ -13,7 +12,7 @@
 - How to run this notebook: 
 - Option 1: Google Colab
 1. Click this link to open in Colab: https://colab.research.google.com/drive/1Ik4GoGQc5NuLwDalUXOnucVgEj2VSZqQ?usp=sharing
-2. Load the required csv files into folder (Note: storage of files is temporary, save files in local repository or store on device).
+2. Load the required csv files (Note: storage of files is temporary, save files in local repository or store on device).
 3. Run all cells
 
 - Option 2: VS Code
@@ -25,7 +24,7 @@
 6. Open `notebooks/claims_analysis.ipynb`
 7. Run all cells
 
-Summary of key findings (3-5 bullet points)
+Summary of key findings (3-5 bullet points):
 - Top Provider: SB Internists is the highest-volume billing provider with 152 claims.
 - Payer Mix: Medicare is the top payer with 62.37% of claims, followed by Healthfirst FFS at 11.86%.
 - Common Procedures: Critical care (CPT 99291) is the most frequently billed procedure, often associated with acute respiratory failure (J96.01).
