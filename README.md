@@ -32,8 +32,4 @@ Summary of key findings (3-5 bullet points):
 - Charges: Medicare accounts for the highest total charges ($131,008). 
 
 Required libraries:
-- To complete this colab project, I imported pandas as pd and matplotlib.pyplot as plt. 
-- The instructions for this assignment calls for installing these libraries in the requirements.txt: 
-    - pandas>=1.3.0
-    - matplotlib>=3.4.0
-    - seaborn>=0.11.0
+- To complete this colab project, I imported pandas as pd, matplotlib.pyplot as plt. and seaborn as sns
